@@ -1,0 +1,57 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.item-menu-selection{
+  &:hover {
+    font-size:22px;
+    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color:#0FD3DD;
+     .text-menu-selection{
+
+    display:block
+   };
+   
+  };
+  &.active {
+    font-size:22px;
+    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color:#0FD3DD;
+     .text-menu-selection{
+    display:none
+   };
+  };
+
+     .text-menu-selection{
+    display:none;
+    padding-left:10px;
+   };
+          animation-duration: 2000ms;
+
+  padding:20px;
+
+  font-size:20px;
+  color: #9294A0;
+    text-decoration: none;
+
+
+}
+   
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
